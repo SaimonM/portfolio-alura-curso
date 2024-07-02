@@ -1,0 +1,46 @@
+<!---declara que o documento é no novo padrão HTML 5-->
+<!DOCTYPE html>
+<html lang="pt=br">
+    <!--dados internos sobre o HTML-->
+    <head>
+        <meta charset="UTF-8"> <!--conjunto de caracteres que escrevem linguas-->
+        <meta><!--define metadados sobre o documento-->
+        <!-- o width-device-width declara que a página deve se adaptar ao tamanho da tela do usuário--> <!--o initial-scale=1.0 declara que o zoom inicial da página ao ser carregada-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 1</title>
+        <link rel="stylesheet" href="/styles/style.css">  <!--linkar css com o html-->
+    </head>
+    <body> <!--contém todos os elementos do documento-->
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="/index.html">Home</a>
+                <a class="cabecalho__menu__link" href="/about.html">Sobre mim</a>
+            </nav>
+        </header>
+        <main class="apresentacao"> <!--declara os elementos principais do projeto-->
+            <section class="apresentacao__conteudo"> <!--organização por seções-->
+                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong><!--strong colocar texto em negrito--></h1>
+                <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <span>React, HTML e CSS.</span> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                <div class="apresentacao__links">
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__link" href="https://github.com/SaimonM">
+                        <img src="/assets/github.png"> 
+                        GitHub
+                    </a> <!--criar ancora, botão clicável-->
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/saimonmcn/">
+                        <img src="/assets/linkedin.png"> 
+                        LinkedIn
+                    </a> <!--criar ancora, botão clicável-->
+                    <a class="apresentacao__links__link" href="https://www.twitch.tv/saimonbardini">
+                        <img src="/assets/twitch.png"> 
+                        Twich
+                    </a> <!--criar ancora, botão clicável-->
+                </div>
+            </section>
+            <img src="/assets/Imagem.png" alt="Mulher programando">
+        </main>
+        <footer class="rodape">
+            <p>Desenvolvido por Saimon.</p>
+        </footer>
+    </body>
+</html>
